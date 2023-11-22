@@ -1,0 +1,49 @@
+
+/*Selectors*/
+/*Allow you to specify the style of different elements having the same type of tag*/
+
+/*Classes*/
+/*You can use classes to differentiate between tags*/
+/*You can access classes in CSS by putting a period in front of the class name*/
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+ }
+
+ /*Best Practice*/
+
+/*Declare the broadest rules with type selectors first*/
+/*Declare the rules with class selectors after*/
+
+/*The broader rules cascade down and become defaults*/
+/*More specific rules can change the defaults*/
+
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.para {
+    /* background-color: yellow; */
+    margin: 0px 15px 0px 15px; 
+}
+
+
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ol {
+    padding-left: 10px;
+}
+
+
